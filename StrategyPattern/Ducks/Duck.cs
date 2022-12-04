@@ -9,8 +9,8 @@ namespace StrategyPattern
 {
     public abstract class Duck
     {
-        public IFlyBehavior IFlyBehavior;
-        public IQuackBehavior IQuackBehavior; 
+        protected IFlyBehavior IFlyBehavior;
+        protected IQuackBehavior IQuackBehavior; 
         public abstract void swim();
         public abstract void display();
         public void performFly()
